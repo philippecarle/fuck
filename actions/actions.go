@@ -7,6 +7,7 @@ import (
 	"github.com/philippecarle/fuck/foaas"
 	"github.com/tcnksm/go-gitconfig"
 	"strings"
+	"os/user"
 )
 
 const Chuck  = `.               .......................................................................
@@ -98,6 +99,8 @@ func getParameters(c *cli.Context) (string, string, error) {
 	if !c.IsSet("me") {
 		m, _ := whoami()
 		me = strings.Title(m)
+	} else {
+		me = strings.Title(c.String("me"))
 	}
 
 	return who, me, nil
@@ -108,7 +111,8 @@ func whoami() (string, error) {
 	if err != nil {
 		owner, err = gitconfig.Username()
 		if err != nil {
-			return "", err
+			user, err := user.Current()
+			return user.Username, err
 		}
 	}
 	return owner, nil
