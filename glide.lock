@@ -1,0 +1,14 @@
+hash: 32a91461c514d1a60ea52c14573bf84cdc78b03e1133f29b8bc04937626b7ea1
+updated: 2016-05-10T09:15:38.454311235+02:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 9f09b40642330881706afa9403c7b6332fa7c249
+- name: github.com/tcnksm/go-gitconfig
+  version: 6411ba19847f20afe47f603328d97aaeca6def6f
+- name: golang.org/pkg/unicode
+  version: ""
+- name: golang.org/pkg/unicode/
+  version: ""
+- name: golang.org/pkg/unicode/letter
+  version: ""
+devImports: []

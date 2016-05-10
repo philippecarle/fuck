@@ -1,0 +1,7 @@
+package: github.com/philippecarle/fuck
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/tcnksm/go-gitconfig
+- package: golang.org/pkg/unicode/
+- package: golang.org/pkg/unicode
+- package: golang.org/pkg/unicode/letter
