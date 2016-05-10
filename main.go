@@ -11,7 +11,7 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = Name
-	app.Version = Version
+	app.Version = Tag
 	app.Author = "philippecarle"
 	app.Email = "tr@nsfer.red"
 	app.Usage = "Wanna tell fuck off to anybody without leaving the CLI ?"
