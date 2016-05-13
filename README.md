@@ -1,8 +1,8 @@
-# Go Fuck
+# Go(lang) Fuck
 
 ## Description
 
-A simple Go package intending to provide CLI users a quick way to fuck anyone or anything.  
+A simple Golang package intending to provide CLI users a quick way to fuck anyone or anything.  
 It has been made as a personal training to Golang basic development.  
 
 Credit for the fucks go to [Fuck Off As A Service](http://foaas.com)
