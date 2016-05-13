@@ -17,6 +17,14 @@ $ fuck somebody
 $ fuck "Who to fuck"
 ```
 
+Signature customization:
+
+```bash
+$ fuck --me=Philippe somebody
+//or
+$ fuck -m Philippe "Who to fuck"
+```
+
 ## Install
 
 To install, use `go get`:
