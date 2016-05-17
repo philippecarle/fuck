@@ -17,6 +17,7 @@ func main() {
 	app.Usage = "Wanna tell fuck off to anybody without leaving the CLI ?"
 
 	app.Flags = GlobalFlags
+	
 	app.Commands = Commands
 	app.CommandNotFound = CommandNotFound
 
