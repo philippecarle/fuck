@@ -1,15 +1,15 @@
 package main
 
 import (
-	"os"
-
-	"github.com/codegangsta/cli"
 	"github.com/philippecarle/fuck/actions"
+	"os"
+	"github.com/codegangsta/cli"
 )
 
 func main() {
-
 	app := cli.NewApp()
+
+	// app informations
 	app.Name = Name
 	app.Version = Tag
 	app.Author = "philippecarle"
@@ -17,7 +17,7 @@ func main() {
 	app.Usage = "Wanna tell fuck off to anybody without leaving the CLI ?"
 
 	app.Flags = GlobalFlags
-	
+
 	app.Commands = Commands
 	app.CommandNotFound = CommandNotFound
 
