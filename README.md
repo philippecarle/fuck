@@ -1,5 +1,7 @@
 # Go(lang) Fuck
 
+[![codebeat badge](https://codebeat.co/badges/ff224edc-94d8-4a05-a5e7-889bc61b7bcd)](https://codebeat.co/projects/github-com-philippecarle-fuck)
+
 ## Description
 
 A simple Golang package intending to provide CLI users a quick way to fuck anyone or anything.  
